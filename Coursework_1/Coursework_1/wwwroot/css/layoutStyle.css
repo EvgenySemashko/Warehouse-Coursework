@@ -1,0 +1,38 @@
+body{
+    margin: 0; /*Убрал отступы по умолчанию*/
+}
+
+
+.main {
+    width: 1920px;
+    height: 975px;
+    background-image: url(../content/background.png);
+}
+
+
+.container-content {
+    
+}
+
+
+.header {
+    padding: 30px 0px 0px 0px; /*Внутренние отступы*/
+    display: flex;  /*Шоб элементики хедера шли слева направо*/
+    justify-content: center; /*Центрирование*/
+    align-items: center; /*Центрирование*/
+    position: relative;
+}
+.header-dropdown_menu {
+    cursor: pointer; /*Изменение курсора при наведении*/
+}
+
+.header-logo {
+    margin: 0px 600px 0px 600px;
+}
+.header-account_logo img{
+    cursor: pointer; /*Изменение курсора при наведении*/
+}
+
+.main-content_container{
+
+}
