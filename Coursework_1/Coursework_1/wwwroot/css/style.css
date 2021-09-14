@@ -8,8 +8,7 @@
     background-color: #2b2c2c;
     border-radius: 20px;
     transform: translate(-100%, 0px);
-    transition: all 0.2s ease 0s;
-    Надоело делать комментарии =(
+    transition: all 0.2s ease 0s;   
 }
 .dropdown-menu._active{
     transform: translate(0px, 0px);
@@ -19,13 +18,13 @@
 .main-content {
     width: 1555px;
     height: 765px;
-    margin: 0 auto; Один из методов центрирования
+    margin: 0 auto;
     margin-top: 30px;
     background-color: #c4c4c4;
-    border-radius: 20px; Закругление углов
+    border-radius: 20px;
 }
 
-* {
+.content-category {
     font-family: "Rubik", sans-serif;
 }
 
